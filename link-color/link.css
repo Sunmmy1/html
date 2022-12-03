@@ -1,0 +1,36 @@
+a:link {
+    color:green;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 32px;
+}
+
+a:visited {
+    color:orange;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 32px;
+}
+
+
+a:hover{
+    color:blue;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 32px;
+    
+}
+
+a:active {
+    color:red;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 32px;
+    
+}
+
+.header {
+color: aquamarine;
+font-size:32px ;
+
+}

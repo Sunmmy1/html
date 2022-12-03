@@ -1,0 +1,66 @@
+/*table{
+    border: 2px solid green;
+    width:100%;
+    border-collapse: collapse;
+}
+
+thead{
+    font-size: 20px;
+}
+
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+table tbody tr:nth-child(odd){
+    background:lightgray;
+}
+
+#surname{
+    width: 50%;
+}
+
+#firstname, .firstname{
+    width: 30%;
+    background: lightgray;
+}
+
+#age{
+    width: 20%;
+}*/
+
+table{
+    width: 100%;
+    border: 2px solid red;
+   /* border-collapse: collapse;*/
+   border-spacing:20px;
+}
+
+table tr td{
+    border: 2px solid black;
+    text-align: center;
+    padding-left:10px;
+    padding-top:20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+table tr th{
+    border: 2px solid black;
+}
+
+/*table tr td:nth-child(even){
+    background:green;
+    color: white;
+}*/
+
+table tr td:hover {
+    background: green;
+    color: white;
+}
+
+#span{
+    background: orange;
+    color: white;
+}

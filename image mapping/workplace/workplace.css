@@ -1,0 +1,21 @@
+#mac{
+border: 2px solid blue;
+
+}
+
+#cellphone{
+border: 2px solid green;
+
+}
+
+#coffeehouse{
+border: 2px solid pink;
+
+}
+
+#background{
+    background-image:url("./workplace.jpg");
+    width:200px;
+    height:200px;
+
+}
