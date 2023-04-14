@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.nav_bar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav_bar ul li {
+    width: 100px;
+}
+
+.nav_bar ul li a {
+    text-decoration: none;
+    padding: 20px 30px;
+    color: black;
+}
+
+.nav_bar ul li a:hover {
+    color: white;
+    background: yellow;
+}
+
+.nav_bar ul #about {
+    position: relative;
+}
+
+.nav_bar ul #about #dropdown li a{
+    color: white;
+}
+
+.nav_bar ul #about #dropdown {
+    display: none;
+}
+
+.nav_bar ul #about:hover #dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    background: blue;
+    width: 100%;
+}
+
+.nav_bar ul #about #dropdown li a:hover {
+    width: 100%;
+    background: unset;
+    padding: 20px 30px;
+}
+
+
+.nav_bar ul #about #dropdown li {
+    padding: 15px 10px;
+}
+
+.nav_bar ul #about #dropdown li:hover {
+    width: 100%;
+    background: black;
+}
+
+/*nav_bar contact */
+.nav_bar ul #contact {
+    position: relative;
+}
+
+.nav_bar ul #contact #dropdown_contact li a{
+    color: white;
+}
+
+.nav_bar ul #contact #dropdown_contact {
+    display: none;
+    
+}
+
+.nav_bar ul #contact:hover #dropdown_contact{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    background: blue;
+    width: 110%;
+}
+
+.nav_bar ul #contact #dropdown_contact li a:hover {
+    width: 100%;
+    background: unset;
+    padding: 20px 30px;
+}
+
+
+.nav_bar ul #contact #dropdown_contact li {
+    padding: 15px 10px;
+}
+
+.nav_bar ul #contact #dropdown_contact li a{
+    position: relative;
+    right: 15px;
+
+}
+.nav_bar ul #contact #dropdown_contact li:hover {
+    width: 100%;
+    background: black;
+}
+/* side_bar */
+.side_bar {
+    background: green;
+    width: 150PX;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side_bar ul {
+    list-style-type: none;
+}
+
+.side_bar ul li {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side_bar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.side_bar ul li a:hover {
+    background: #FFC0CB;
+    color: black;
+}
+
+.side_bar ul #contact {
+    position: relative;
+    
+}
+
+.side_bar ul #contact #sidedrop li a{
+    color: black;
+}
+
+.side_bar ul #contact #sidedrop {
+   display: none;
+}
+
+.side_bar ul #contact:hover #sidedrop {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 150px;
+    background: red;
+}
+
+.side_bar ul #contact #sidedrop li a:hover {
+    width: 100%;
+    color: white;
+    background: black;
+}
+
+/* sidebar_about */
+.side_bar ul #contact {
+    position: relative;
+    
+}
+
+.side_bar ul #about #sidebar_about li a{
+    color: black;
+}
+
+.side_bar ul #about #sidebar_about {
+   display: none;
+}
+
+.side_bar ul #about:hover #sidebar_about {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 150px;
+    background: red;
+}
+
+.side_bar ul #about #sidebar_about li a:hover {
+    width: 100%;
+    color: white;
+    background: black;
+}

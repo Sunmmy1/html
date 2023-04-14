@@ -1,0 +1,51 @@
+body {
+    position: relative;
+}
+
+#parent, #parent-2, #parent-3, #parent-4, #parent-5, #parent-6 {
+    width: 90%;
+    height: 50vh;
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    position: relative;
+}
+
+#parent-2 {
+    position: sticky;
+    height: 20vh;
+    background: gray;
+    top: 50px;
+    bottom: -30px;
+    margin-top: 20px;
+}
+
+.child {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 2px solid red;
+    position: absolute;
+    /* left: -40px; */
+}
+
+#child-1 {
+    background: blue;
+    z-index: 10;
+    left: 20px;
+}
+
+#child-2 {
+    background: yellow;
+    /* z-index: 10; */
+    left: 40px;
+}
+
+#child-3 {
+    background: red;
+    left: 60px;
+}
