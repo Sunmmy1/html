@@ -1,0 +1,16 @@
+#first {
+    padding: 20px;
+    background: red;
+    width: 10%;
+}
+
+#last {
+    padding: 20px;
+    background: green;
+    width: 10%;
+    display: none;
+}
+
+#container:hover #last {
+    display: block;
+}

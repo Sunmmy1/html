@@ -1,0 +1,21 @@
+/* a[target] {
+    background: red;
+} */
+
+a[href~="#2"] {
+    background: blue;
+    color: white;
+}
+
+[target] {
+    background: red;
+}
+
+[class*="op"] {
+    background: green;
+    color: white;
+}
+
+input[type="text"] {
+    color: blue;
+}

@@ -1,0 +1,36 @@
+#inline {
+    width: 30%;
+    height: 100px;
+    background-color: green;
+    margin: auto;
+    display: inline;
+}
+
+#inline-block {
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    margin: auto;
+}
+
+#block {
+    width: 30%;
+    height: 100px;
+    border: 1px solid blue;
+    margin: auto;
+    color: purple;
+}
+
+#block + p:hover {
+    transform: rotate(30deg);
+}
+
+#block p:first-child i {
+    color: yellow;
+    transform: rotate(45deg);
+}
+
+q:lang(no) {
+    quotes: "*" "%";
+}
